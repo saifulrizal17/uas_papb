@@ -10,17 +10,27 @@ class MenuItemsList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(
-            'Menu Pilihan',
-            style: TextStyle(fontSize: 22.0, color: Colors.black54),
-          ),
-          SizedBox(height: 16.0),
-          MenuItem(),
-          MenuItem(),
-        ],
+      child: Container(
+        height: 560.0,
+        child: ListView(
+          scrollDirection: Axis.vertical,
+          children: <Widget>[
+            Text(
+              'Menu Pilihan',
+              style: TextStyle(fontSize: 22.0, color: Colors.black54),
+            ),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+            MenuItem(),
+          ],
+        ),
       ),
     );
   }
