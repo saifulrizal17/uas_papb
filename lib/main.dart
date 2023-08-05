@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uas_papb/header.dart';
 import 'package:uas_papb/listview.dart';
 import 'package:uas_papb/button.dart';
+import 'package:uas_papb/menu.dart';
 
 void main() => runApp(MyApp());
 
@@ -34,7 +35,9 @@ class MyHomePage extends StatelessWidget {
             SizedBox(height: 16.0),
             FoodListview(),
             SizedBox(height: 16.0),
-            SelectTypeSection()
+            SelectTypeSection(),
+            SizedBox(height: 16.0),
+            MenuItemsList()
           ],
         ),
       ),
