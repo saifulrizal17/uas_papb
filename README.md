@@ -1,6 +1,13 @@
-# uas_papb
+# UAS PAPB
 
-A new Flutter project.
+untuk memenuhi tugas akhir mata kuliah Pengembangan Aplikasi Perangkat Bergerak
+
+Kelompok 4 :
+
+- 20104410080-Bima Prasetiya
+- 20104410078-Donny Damara Nanda Putra Arifin
+- 20104410095-Muhammad Raafi Ramadhan
+- 20104410067-Saiful Rizal
 
 ## Getting Started
 
