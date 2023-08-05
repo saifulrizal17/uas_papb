@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uas_papb/header.dart';
 import 'package:uas_papb/button.dart';
 
 void main() => runApp(MyApp());
@@ -14,6 +15,11 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// IMAGES
+var pecelImage = 'https://i.ibb.co/s1RpfXD/pecel.jpg';
+
+var pacel2Image = 'https://i.ibb.co/Smfw2R0/pecel2.jpg';
+
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,7 +27,14 @@ class MyHomePage extends StatelessWidget {
       floatingActionButton: MyActionButton(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: MyButton(),
-      body: Container(),
+      body: Container(
+        child: ListView(
+          children: <Widget>[
+            SizedBox(height: 16.0),
+            FoodListview()
+          ],
+        ),
+      ),
     );
   }
 }
