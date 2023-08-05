@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uas_papb/header.dart';
+import 'package:uas_papb/listview.dart';
 import 'package:uas_papb/button.dart';
 
 void main() => runApp(MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
 // IMAGES
 var pecelImage = 'https://i.ibb.co/s1RpfXD/pecel.jpg';
 
-var pacel2Image = 'https://i.ibb.co/Smfw2R0/pecel2.jpg';
+var pecel2Image = 'https://i.ibb.co/Smfw2R0/pecel2.jpg';
 
 class MyHomePage extends StatelessWidget {
   @override
@@ -31,7 +32,9 @@ class MyHomePage extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             SizedBox(height: 16.0),
-            FoodListview()
+            FoodListview(),
+            SizedBox(height: 16.0),
+            SelectTypeSection()
           ],
         ),
       ),
