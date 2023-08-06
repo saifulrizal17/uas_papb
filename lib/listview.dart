@@ -18,13 +18,13 @@ class SelectTypeSection extends StatelessWidget {
               child: Container(
                 height: 92.0,
                 width: 120.0,
-                color: Colors.lightGreen[700],
+                color: Colors.green,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Icon(
                       FontAwesomeIcons.bowlRice,
-                      color: Colors.green[300],
+                      color: Colors.greenAccent,
                     ),
                     SizedBox(
                       height: 4.0,
@@ -41,13 +41,13 @@ class SelectTypeSection extends StatelessWidget {
             Container(
               height: 92.0,
               width: 120.0,
-              color: Colors.red[600],
+              color: Colors.red,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(
                     FontAwesomeIcons.utensils,
-                    color: Colors.red[400],
+                    color: Colors.redAccent,
                   ),
                   SizedBox(
                     height: 4.0,
@@ -63,13 +63,13 @@ class SelectTypeSection extends StatelessWidget {
             Container(
               height: 92.0,
               width: 124.0,
-              color: Colors.blue[700],
+              color: Colors.blue,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Icon(
                     FontAwesomeIcons.mugHot,
-                    color: Colors.blue[200],
+                    color: Colors.lightBlueAccent,
                   ),
                   SizedBox(
                     height: 4.0,

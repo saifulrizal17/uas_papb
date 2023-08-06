@@ -61,7 +61,7 @@ class ItemCard extends StatelessWidget {
                     Text(
                       'Promo 20%',
                       style: TextStyle(
-                          color: Colors.yellow,
+                          color: Colors.yellow[400],
                           fontWeight: FontWeight.bold,
                           fontSize: 24.0,
                           letterSpacing: 1.1),

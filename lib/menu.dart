@@ -19,6 +19,7 @@ class MenuItemsList extends StatelessWidget {
               'Menu Pilihan',
               style: TextStyle(fontSize: 22.0, color: Colors.black54),
             ),
+            SizedBox(height: 16.0),
             MenuItem(),
             MenuItem(),
             MenuItem(),
@@ -66,7 +67,7 @@ class MenuItem extends StatelessWidget {
                 children: <Widget>[
                   Container(
                     decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 217, 199, 38),
+                        color: Colors.yellow[700],
                         borderRadius: BorderRadius.circular(4.0)),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(
